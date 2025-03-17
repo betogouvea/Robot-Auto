@@ -8,6 +8,7 @@ Este repositório contém os testes automatizados utilizando **Robot Framework**
 
 ## 🔧 Pré-requisitos
 
+- Teste configurado para -CHIP INTEL-
 - Python 3 instalado
 - Robot Framework instalado (`pip install robotframework`)
 - SeleniumLibrary instalado (`pip install robotframework-seleniumlibrary`)
