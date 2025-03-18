@@ -48,6 +48,6 @@ Successful Checkout
     Open Browser To Login Page
     Login To Application    ${USERNAME}    ${PASSWORD}
     Add First Product To Cart
-    Complete Checkout    BetoG    QA    223344
+    Complete Checkout    BetoG    QA    1234
     Element Should Contain    xpath=//h2[@class='complete-header']    Thank you
     Close Browser
