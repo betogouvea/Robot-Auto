@@ -1,0 +1,26 @@
+# Arquivos desnecessários do macOS
+.DS_Store
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Node e Cypress
+node_modules/
+cypress/videos/
+cypress/screenshots/
+
+# Robot Framework e Python
+__pycache__/
+*.pyc
+*.pyo
+env/
+venv/
+
+# Postman exportado
+*.postman_collection.json
+
+# Outras configurações de IDE
+.idea/
+.vscode/
+
