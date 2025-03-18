@@ -3,7 +3,7 @@ Library           SeleniumLibrary
 
 *** Variables ***
 ${URL}            https://www.saucedemo.com/
-${BROWSER}        chrome
+${BROWSER}        headlesschrome
 ${USERNAME}       standard_user
 ${PASSWORD}       secret_sauce
 
@@ -12,7 +12,7 @@ Add First Product To Cart
     Click Button    xpath=//button[contains(@class, 'btn_inventory')]
     Click Element   xpath=//a[contains(@class, 'shopping_cart_link')]
 Open Browser To Login Page
-    Open Browser    ${URL}    ${BROWSER}
+    Open Browser    ${URL}    ${BROWSER} 
     Maximize Browser Window
 
 Login To Application
