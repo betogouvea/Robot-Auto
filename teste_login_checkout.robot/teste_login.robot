@@ -11,8 +11,9 @@ ${PASSWORD}       secret_sauce
 Add First Product To Cart
     Click Button    xpath=//button[contains(@class, 'btn_inventory')]
     Click Element   xpath=//a[contains(@class, 'shopping_cart_link')]
+
 Open Browser To Login Page
-    Open Browser    ${URL}    ${BROWSER}
+    Open Browser    ${URL}    ${BROWSER}    options=--headless --disable-gpu --no-sandbox --disable-dev-shm-usage --user-data-dir=/tmp/unique_chrome_profile
     Maximize Browser Window
 
 Login To Application
